@@ -8,7 +8,7 @@ which imports orders into a database.
 Language:
 - CSV header with a sample input (1 order per line)
 - orderId,customerId,item,quantity <br />
-  sample-123,customer-321,Flowers,2
+  order-123,customer-A,glasses,10
 
 #### Tables:
 ##### Customers
@@ -43,7 +43,7 @@ run sql given in <br /> src/sql-scripts/script_v1.sql
 `npm i`
 
 #### modify env variable if you want (package.json)
-`ORDER_CSV_URL='http://www.mocky.io/v2/5c68d910370000e30407fcc9` 
+`ORDER_CSV_URL='http://www.mocky.io/v2/5c6bcd413200008015bef655` 
 
 #### Run
  `npm start`

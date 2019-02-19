@@ -9,8 +9,8 @@ CREATE TABLE IF NOT EXISTS customers (
        );
 
 INSERT INTO customers(customerId, firstName, lastName) values
-        ('customer-321', 'MR. John', 'Goodman'),
-        ('customer-322', 'MR. Sam', 'Gandalf');
+        ('customer-A', 'MR. John', 'Goodman'),
+        ('customer-B', 'MR. Sam', 'Gandalf');
 
 
 CREATE TABLE IF NOT EXISTS orders (
