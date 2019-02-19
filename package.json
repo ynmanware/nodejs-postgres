@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "ORDER_CSV_URL='http://www.mocky.io/v2/5c68d910370000e30407fcc9' node app.js"
   },
   "author": "",
   "license": "ISC",

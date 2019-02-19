@@ -42,6 +42,9 @@ run sql given in <br /> src/sql-scripts/script_v1.sql
 #### Install
 `npm i`
 
+#### modify env variable if you want (package.json)
+`ORDER_CSV_URL='http://www.mocky.io/v2/5c68d910370000e30407fcc9` 
+
 #### Run
  `npm start`
  
